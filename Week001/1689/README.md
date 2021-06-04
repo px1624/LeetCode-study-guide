@@ -5,23 +5,23 @@
 
 ##### Example 1:
 
-**Input:** n = "32"
-**Output:** 3
-Explanation: 10 + 11 + 11 = 32
+**Input:** n = "32"  
+**Output:** 3  
+**Explanation:** 10 + 11 + 11 = 32  
 
 ##### Example 2:
 
-**Input:** n = "82734"
-**Output:** 8
+**Input:** n = "82734"  
+**Output:** 8  
 
-##### Example 3:
+##### Example 3:  
 
-**Input:** n = "27346209830709182346"
-**Output:** 9
+**Input:** n = "27346209830709182346"  
+**Output:** 9  
  
 
 ##### Constraints:
 
-- 1 <= n.length <= 10&sup5
-- n consists of only digits.
-- n does not contain any leading zeros and represents a positive integer.
+- 1 <= n.length <= 10^5^  
+- n consists of only digits.  
+- n does not contain any leading zeros and represents a positive integer.  
