@@ -33,3 +33,8 @@ Notice that the answer must be a substring, "pwke" is a subsequence and not a su
 
 * `0 <= s.length <= 5 * 104`
 * `s` consists of English letters, digits, symbols and spaces.
+
+
+## Solution Details
+#### px1624:
+In this problem, a valid substring is a substring without any repeating character. Suppose we have a `begin` variable to mark the beginning of the substring while looping through the string character by character. If we encounter a character we've visited before, we only need to update the `begin` variable if the character we've seen before appears within the substring. A character is within the substring if it appears after the `begin`, thus we need to update the substring to start from 1 after the position of the character we last seen. Within each iteration, we only need to update the `max_len` if the current length of substring is greater than `max_len`.
