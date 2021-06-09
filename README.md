@@ -4,6 +4,7 @@
 
 - [3.  Partitioning Into Minimum Number Of Deci-Binary Number ](/Week001/3) (:spades::trollface:)
 - [1689.  Partitioning Into Minimum Number Of Deci-Binary Number ](/Week001/1689/) (:fire::ghost::trollface:)
+- [98.  Validate Binary Search Tree ](/Week001/98/) (:trollface:)
 
 ## Authors
 * hcao10
