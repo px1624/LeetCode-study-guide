@@ -41,3 +41,6 @@ In this problem, a valid substring is a substring without any repeating characte
 
 #### zdong2080:
 This sequence is for keep tracking the longest subsequence without repeating. Thus, it needs an data structure to fast search if the current element is already in the subsequence. Hash table would be the best one due to the fast insert and search. For the key, it would be the element since it is unique. For the value, it would be the index since we need to find the index of the element same as the current element if it was already in the subsequence. We then goes back to the previous element + 1. We keep tracking if the size of the subsequence is largest. And we return the max size.
+
+#### hcao10:
+Oops! Someone hasn't read the question yet:)
