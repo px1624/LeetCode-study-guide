@@ -1,3 +1,5 @@
+//This solution Does Not contain comments. If you need it, please see the file called "solution_comment_hcao10.cpp"
+
 class Solution {
 public:
     int minPartitions(string n) {
