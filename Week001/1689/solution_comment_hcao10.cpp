@@ -1,7 +1,5 @@
 //This solution contains comments. If you don't need it, please see the file called "solution_NOcomment_hcao.cpp"
 
-
-
 class Solution {
 public:
     int minPartitions(string n) {
@@ -26,3 +24,5 @@ public:
         return n - '0';
     }
 };
+
+
