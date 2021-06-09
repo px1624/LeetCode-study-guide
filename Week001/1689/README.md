@@ -28,7 +28,10 @@
 - n consists of only digits.  
 - n does not contain any leading zeros and represents a positive integer.  
 
-### Idea：
+<hr>
+
+## Solution Details
+#### hcao10:
 The essence of this problem is to find the largest single number in a string of numbers.  
 After reading the question, we know that Deci-Binary Number only contains zeros or ones, and cannot start with zero. The definition of Deci-Binary Number means that a single number **x** in a string of numbers requires **x** deci-binary Numbers(each of these is a 1) to form it.  
 #### e.g.
