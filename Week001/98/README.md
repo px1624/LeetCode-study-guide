@@ -32,3 +32,10 @@ Both the left and right subtrees must also be binary search trees.<br>
 
 #### px1624:
 A valid BST is sorted in the `inorder` traversal order. That is if we add all the values in the BST to an empty array using `inorder` traversal, the array will be a sorted sequence. The problem states that left child is strictly less than the parent node, and the right child is strictly greater than the parent node, we can conclude that if the BST is valid, the resulting array must be in strictly increasing order. Thus we can solve the problem in two steps, first create an empty array and add all the numbers in the BST to the array using `inorder` traversal. Then we can verify that the populated array is sorted in increasing order by looping through the array once.
+
+#### hcao10:
+For a valid BST, 
+if its left subtree is not empty, then the value of all the nodes in the left subtree is less than the value of its root node; 
+if its right subtree is not empty, then the value of all nodes in the right subtree is greater than the value of its root node; 
+its left and right subtrees are also valid BSTs.  
+By understanding these three properties, we only need to recursively traverse the BST to test if all the nodes in the subtree are in the range of the leftmost and rightmost nodes' values to ensure that the tree satisfies the BST properties. 
