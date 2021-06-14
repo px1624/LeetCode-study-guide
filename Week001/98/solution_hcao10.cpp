@@ -12,16 +12,21 @@
 class Solution {
 public:
     bool isValidBST(TreeNode* root) {
-        return recursivelyTraverse(root, INT_MIN, INT_MAX);
+        return recursivelyTraverse(root, LONG_MIN, LONG_MAX);
     }
-    bool recursivelyTraverse(TreeNode* root, int leftNodeValue, int rightNodeValue){
+    
+    // leftNodeValue < root < rightNodeValue
+    // Using long long for the cases that values >= 2147483647
+    bool recursivelyTraverse(TreeNode* root, long long leftNodeValue, long long rightNodeValue){
         if(root == nullptr){
-            return ture;
+            return true;
         }
+        // return false if any subtree not satisfies
         if((root -> val <= leftNodeValue)||( root -> val >= rightNodeValue)){
-            return flase;
+            return false;
         }
-        return  recursivelyTraverse( root -> left, leftNodeValue,  root ->val) && recursivelyTraverse( root -> right, root -> val,  rightNodeValue)
+        // recursively traverse:
+        return  recursivelyTraverse( root -> left, leftNodeValue,  root ->val) && recursivelyTraverse( root -> right, root -> val,  rightNodeValue);
         
     }
 };
