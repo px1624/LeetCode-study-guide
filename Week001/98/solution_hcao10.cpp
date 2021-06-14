@@ -12,7 +12,7 @@
 class Solution {
 public:
     bool isValidBST(TreeNode* root) {
-        recursivelyTraverse(root, INT_MIN, INT_MAX);
+        return recursivelyTraverse(root, INT_MIN, INT_MAX);
     }
     bool recursivelyTraverse(TreeNode* root, int leftNodeValue, int rightNodeValue){
         if(root == nullptr){
