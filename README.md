@@ -7,6 +7,6 @@
 - [98.  Validate Binary Search Tree ](/Week001/98/) (:snowflake::spades:✨)
 
 ## Authors
-* hcao10()
+* hcao10(✨)
 * px1624(:spades:)
 * zdong2080(:snowflake:)
