@@ -41,3 +41,6 @@ if its right subtree is not empty, then the value of all nodes in the right subt
 its left and right subtrees are also valid BSTs.  </br>
 </pre>
 By understanding these three properties, we only need to recursively traverse the BST to test if all the nodes in the subtree are in the range of the leftmost and rightmost nodes' values to ensure that the tree satisfies the BST properties. 
+
+#### zdong7:
+Recursively call the function itself to check the left subtree and the right subtree of each node. If the value is not in the range, return false.
