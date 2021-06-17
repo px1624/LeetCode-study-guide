@@ -59,3 +59,7 @@ So the **largest Number** in the string determines the Number of deci-binary num
 #### px1624:
 
 Since we can only use Deci-Binary numbers, the mininum number of Deci-Binary numbers we need is bounded by the largest digit in `n`. This is because we can only add `1` to that digit each time for every Deci-Binary number. The largest digit in `n` cannot be larger than `9`, since `n` is a decimal number in string representation. Thus we've obtained a lower bound and an upper bound for the solution. The solution is straight forward, looping over string `n` to find the largest digit, if we encounter a `9`, we can simply return `9` and end the loop early. We can further optimize the memory usage by using a char (1 byte) variable instead of a int (4 byte) for storing the maximum digit.
+
+#### zdong2080:
+According to the feature of the question, we only need to keep update the maximum index in the given number. If the number is 345, the total different binary numbers will be
+generated will be the number 5 since it is the maximum index in the number.
