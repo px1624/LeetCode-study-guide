@@ -34,4 +34,4 @@ Given a string expression of numbers and operators, return all possible results 
 ## Solution Details
 
 #### hcao10:
-Oops! Someone is updating right now:)
+Oops! The sollution details will be updated tomorrow:)
