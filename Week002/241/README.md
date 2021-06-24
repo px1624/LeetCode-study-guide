@@ -34,4 +34,18 @@ Given a string expression of numbers and operators, return all possible results 
 ## Solution Details
 
 #### hcao10:
-Oops! The sollution details will be updated tomorrow:)
+The expression can be recursively divided at the operators' positions until there is no operator in the expression. We don't need to think about exactly where to put the parentheses, because we already did the parentheses job by splitting the expression into two parts:
+<pre>
+ 2 * 3 - 4 * 5
+ 2 | 3 <b>|</b> 4 | 5  
+ ->  2 | <b>(3 - 4 * 5)</b>
+   => 3 | 4 | 5 
+   => 3 - (4 * 5) OR (3 - 4) * 5 
+   
+ -> (2 * 3) <b>|</b> (4 * 5)
+ 
+ -> <b>(2 * 3 - 4)</b> | 5
+   => 2 | 3 | 4 
+   => 2 * (3 - 4) OR (2 * 3) - 4
+</pre>
+Start calculation when the expression doesn't have any operator.
