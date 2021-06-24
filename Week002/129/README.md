@@ -43,3 +43,6 @@ Therefore, sum = 495 + 491 + 40 = 1026.
 ## Solution Details
 
 #### zdong7:
+In this question, it requires us to sum all the numbers that from root to leaf. 
+So we can recursively call itself to time 10 to its own value and add to the value to its two children node.
+In the end, what we do is sum the left subtree and right subtree value for each node and return it.
