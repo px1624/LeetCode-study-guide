@@ -4,14 +4,11 @@ public:
         int index = 0;
         int num = 0;
         vector<int> ans;
-        // In case:
-        if( expression.size() == 1){
-            ans.push_back(expression[0] - '0');
-            return ans;
-        }
-        // Store decimal digits
+
+        // Get decimal digits
         while(index < expression.size() && isdigit(expression[index]))
             num = num * 10 + expression[index++] - '0';
+        // If there is no operator in the expression, return the number:
         if(index == expression.size()){
             hash[expression] = {num};
             return {num};
