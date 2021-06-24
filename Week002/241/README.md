@@ -49,3 +49,6 @@ The expression can be recursively divided at the operators' positions until ther
    => 2 * (3 - 4) OR (2 * 3) - 4
 </pre>
 Start calculation when the expression doesn't have any operator.
+
+#### px1624:
+For each operator, split the expression by said operator and group left substring and right substring each by a parenthesis. Recursively call the function on left substring and right substring. Compute every combination of left results and right results using the said operator. The base case is when the expression does not contain any operators, simply return a list containing a single number. We can improve the speed by memoization. Record the result of each expression in a dictionary and return in the beginning if the expression is in the dictionary.
