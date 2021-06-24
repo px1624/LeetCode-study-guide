@@ -46,3 +46,6 @@ Therefore, sum = 495 + 491 + 40 = 1026.
 In this question, it requires us to sum all the numbers that from root to leaf. 
 So we can recursively call itself to time 10 to its own value and add to the value to its two children node.
 In the end, what we do is sum the left subtree and right subtree value for each node and return it.
+
+#### px1624:
+We can simply use either bfs and dfs to traverse through the tree and adding parent nodes value (times 10) to both children. When reaching the leaf node, add its value to the total sum. We can do this iteratively using stack or queue, or recursively.
