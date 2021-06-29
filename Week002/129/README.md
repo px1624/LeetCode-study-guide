@@ -49,3 +49,6 @@ In the end, what we do is sum the left subtree and right subtree value for each 
 
 #### px1624:
 We can simply use either bfs and dfs to traverse through the tree and adding parent nodes value (times 10) to both children. When reaching the leaf node, add its value to the total sum. We can do this iteratively using stack or queue, or recursively.
+
+#### hcao10:
+😰🤔ing
