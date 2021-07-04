@@ -3,6 +3,7 @@ public:
     StockSpanner() {
 
         vector <int> prices;
+        vector <int> spans;
     }
     
     int next(int price) {
