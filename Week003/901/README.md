@@ -36,6 +36,7 @@ Note that (for example) S.next(75) returned 4, because the last 4 prices
 
 ## Solution Details
 #### hcao10:
+To find the maximum number of consecutive days for which the price of the stock was less than or equal to today's price, we can compare the price of the day with the previous price and record the number of consecutive days. Since "today's price is greater than yesterday's price" means that "the days that were previously less than yesterday's price are also less than today's price", it is not necessary to compare all the previous data each time, just fetching the prices of the previous days that are not within the current span value record:
 
 ![Example](https://github.com/px1624/LeetCode-study-guide/blob/282d5213319a7036008e7642533b4b6a5526c701/Week003/901/SD901.png "[100, 80, 60, 70, 60, 75, 85]")
 
