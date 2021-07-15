@@ -41,3 +41,7 @@ To find the maximum number of consecutive days for which the price of the stock 
 ![Example](https://github.com/px1624/LeetCode-study-guide/blob/282d5213319a7036008e7642533b4b6a5526c701/Week003/901/SD901.png "[100, 80, 60, 70, 60, 75, 85]")
 
 [Corresponding Solution](https://github.com/px1624/LeetCode-study-guide/blob/282d5213319a7036008e7642533b4b6a5526c701/Week003/901/solution_hcao10.cpp)
+
+### px1624:
+
+The brute force solution would be to check every previous day's price until the price is higher than the current day. We can do better if we remember the all the previous days' span too. If current day's price is greater than the previous, we can then skip number of days equal to previous day's span because previous day's span must be within the current day's span. Thus we can greately reduce the number of times we check the previous days.
