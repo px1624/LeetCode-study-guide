@@ -62,3 +62,9 @@ Hence, there are no valid ways to decode this since all digits need to be mapped
 ## Solution Details
 
 #### px1624:
+
+We can use recursion here. Suppose we have `226` as our string. Starting from the right, if we can decode `6` by itself, which we can, the number of ways to decode the string is equal to the number of ways to decode `22`. If we can decode `26` together, which we can again, then we need to add the number of ways to decode the remaining string, which is just `2`. Thus the relationship becomes:
+```
+decode("226") = decode("22") + decode("2")
+```
+Utilizing memoization, we can speed up the computation. We can further optimize the algorithm by only storing the number of ways to decode the previous two positions. That is, from `i=0` to `i<strlen`, we always keep number of ways to decode strings at `i-1` and `i-2`. This way we can build the result iteratively from left to right.

@@ -3,7 +3,7 @@
 ## LeetCode Problems
 
 - [3.  Partitioning Into Minimum Number Of Deci-Binary Number ](/Week001/3) (:spades::snowflake:✨)
-- [91.  Decode Ways](/Week004/91) (:hourglass:)
+- [91.  Decode Ways](/Week004/91) (:spades:)
 - [98.  Validate Binary Search Tree ](/Week001/98/) (:snowflake::spades:✨)
 - [129.  Sum Root to Leaf Numbers ](/Week002/129/) (:snowflake::spades:)
 - [241.  Different Ways to Add Parentheses ](/Week002/241/) (✨:spades:)
