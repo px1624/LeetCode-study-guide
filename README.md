@@ -13,7 +13,7 @@
 - [901.  Online Stock Span ](/Week003/901/) (✨:spades:)
 - [1073. Adding Two Negabinary Numbers](/Week004/1073)(✨⏳)
 - [1689. Partitioning Into Minimum Number Of Deci-Binary Number](/Week001/1689/) (✨:snowflake::spades:)
-- [1838. Frequency of the Most Frequent Element](Week005/1838/) (✨)
+- [1838. Frequency of the Most Frequent Element](Week005/1838/) (✨⏳)
 - [1881. Maximum Value after Insertion](Week006/1881) (:hourglass:)
 ## Authors
 * hcao10(✨)
