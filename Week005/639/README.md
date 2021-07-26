@@ -60,3 +60,24 @@ Hence, there are a total of (6 * 2) + (3 * 1) = 12 + 3 = 15 ways to decode "2*".
 ## Solution Details
 
 #### px1624:
+The logic is similar to that of [Problem 91](/Week004/91). We need to add logic to handle the `*` character. If we encounter a `*`, we need to multiply the number of ways to encode by `9` since it can take any value from `1-9`. That is the case when `*` is encoded on its own. When combining it with the previous character we have the following cases:
+
+* Both digits are `*`'s, i.e. `**`
+    * There are `15` ways to decode `**`, `11-19` and `21-26`
+    * Note that `*` cannot be `0`
+* First digit is `*`, i.e. `*[0-9]`
+    * Second digit is `[7-9]`
+        * Then `*` must be `1`
+        * The number of encodings stays the same
+    * Second digit is `[0-6]`
+        * Then `*` can be `1` or `2`
+        * Doubling the number of encodings
+* Second digit is `*`, i.e. `[1-2]*`
+    * First digit is `1`
+        * There are `9` possible values for `*`
+    * First digit is `2`
+        * There are `6` possible values for `*`
+* Both digits are not `*`, i.e. `[1-2][0-9]`
+    * The number of encodings stays the same if two digits are within range `[10-26]`
+
+Using the above rules, we can calculate the total number of encodings for a given string.

@@ -9,7 +9,7 @@
 - [241.  Different Ways to Add Parentheses](/Week002/241/) (🌟:spades:)
 - [429.  N-ary Tree Level Order Traversal](/Week007/429) (:hourglass:)
 - [576.  Out of Boundary Paths](/Week003/576) (:spades:)
-- [639.  Decode Ways II](/Week005/639) (:hourglass:)
+- [639.  Decode Ways II](/Week005/639) (:spades:)
 - [894.  All Possible Full Binary Trees](/Week002/894/) (:spades:)
 - [901.  Online Stock Span ](/Week003/901/) (🌟:spades:)
 - [931.  Minimum Falling Path Sum ](/Week008/931/) (:hourglass:)
