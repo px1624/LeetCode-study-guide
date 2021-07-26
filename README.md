@@ -11,7 +11,7 @@
 - [639.  Decode Ways II](/Week005/639) (:hourglass:)
 - [894.  All Possible Full Binary Trees](/Week002/894/) (:spades:)
 - [901.  Online Stock Span ](/Week003/901/) (🌟:spades:)
-- [1073. Adding Two Negabinary Numbers](/Week004/1073)(🌟⏳)
+- [1073. Adding Two Negabinary Numbers](/Week004/1073)(🌟:spades:)
 - [1689. Partitioning Into Minimum Number Of Deci-Binary Number](/Week001/1689/) (🌟:snowflake::spades:)
 - [1838. Frequency of the Most Frequent Element](Week005/1838/) (🌟⏳)
 - [1881. Maximum Value after Insertion](Week006/1881) (:hourglass:)
